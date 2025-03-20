@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Cuentas Bancarias";
+}   
+@foreach (var cuenta in ViewBag.Cuenta)
+{
+    <div class="col-md-4">
+        <div class="card shadow-lg p-2">
+            <p class="text-center mb-0">Email: @cuenta.EmailC</p>
+            <p class="text-center mt-0">Numero Cuenta: @cuenta.NCuenta</p>
+            <p class="text-center mt-0">Saldo: @cuenta.Saldo</p>
+
+            <!-- Formulario para cambiar cuenta -->
+            <form asp-action="CambiarCuenta" asp-controller="Home" method="post">
+                <input type="hidden" name="Ncuenta" value="@cuenta.NCuenta" />
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Cambiar cuenta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+}
+    }
+
+    

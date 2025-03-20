@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Transacciones Page";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Create Account</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="CreateTransacciones" asp-controller="Home" method="post">
+                        <div class="mb-3">
+                            <label for="txtNumeroCuenta" class="form-label">Numero de cuenta</label>
+                            <input type="text" id="txtnumerocuenta" name="txtNumeroCuenta" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtMotivo" class="form-label">Motivo</label>
+                            <input type="text" id="txtMotivo" name="txtMotivo" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtCantidad" class="form-label">Cantidad</label>
+                            <input type="text" id="txtCantidad" name="txtCantidad" class="form-control" required />
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
