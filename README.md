@@ -5,3 +5,7 @@ Donde se muestra la lo que es el Home page y donde se visualiza la cuenta y el s
 Comenzando con el ver cuentas, donde se pueden visualizar las direfentes cuentas que estan y sus saldos correspondientes
 La siguiente opcion es la tranferencia que lo envia a una pagina que tiene un varios imputs los cuales son numero cuenta, motivo y cantidad
 y la ultima opcion va ser  la historial de tranferencia, donde se muestran la direntes trasacciones hechas por ese usuario
+
+
+https://github.com/user-attachments/assets/4ebedeee-ef9b-4dee-8311-8cf9fbcd7de3
+
